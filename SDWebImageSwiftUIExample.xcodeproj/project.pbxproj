@@ -11,6 +11,9 @@
 		FF2C03662BA0811C00E9F085 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2C03652BA0811C00E9F085 /* ContentView.swift */; };
 		FF2C03682BA0811D00E9F085 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF2C03672BA0811D00E9F085 /* Assets.xcassets */; };
 		FF2C036B2BA0811D00E9F085 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF2C036A2BA0811D00E9F085 /* Preview Assets.xcassets */; };
+		FF2C03732BA081E000E9F085 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = FF2C03722BA081E000E9F085 /* SDWebImageSwiftUI */; };
+		FF2C03752BA0833200E9F085 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2C03742BA0833200E9F085 /* Image.swift */; };
+		FF2C03772BA0910800E9F085 /* SDWebImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2C03762BA0910800E9F085 /* SDWebImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,8 @@
 		FF2C03652BA0811C00E9F085 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FF2C03672BA0811D00E9F085 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF2C036A2BA0811D00E9F085 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF2C03742BA0833200E9F085 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		FF2C03762BA0910800E9F085 /* SDWebImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDWebImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF2C03732BA081E000E9F085 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +61,8 @@
 				FF2C03652BA0811C00E9F085 /* ContentView.swift */,
 				FF2C03672BA0811D00E9F085 /* Assets.xcassets */,
 				FF2C03692BA0811D00E9F085 /* Preview Content */,
+				FF2C03742BA0833200E9F085 /* Image.swift */,
+				FF2C03762BA0910800E9F085 /* SDWebImageView.swift */,
 			);
 			path = SDWebImageSwiftUIExample;
 			sourceTree = "<group>";
@@ -83,6 +91,9 @@
 			dependencies = (
 			);
 			name = SDWebImageSwiftUIExample;
+			packageProductDependencies = (
+				FF2C03722BA081E000E9F085 /* SDWebImageSwiftUI */,
+			);
 			productName = SDWebImageSwiftUIExample;
 			productReference = FF2C03602BA0811B00E9F085 /* SDWebImageSwiftUIExample.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +122,9 @@
 				Base,
 			);
 			mainGroup = FF2C03572BA0811B00E9F085;
+			packageReferences = (
+				FF2C03712BA081E000E9F085 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = FF2C03612BA0811B00E9F085 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF2C03662BA0811C00E9F085 /* ContentView.swift in Sources */,
+				FF2C03752BA0833200E9F085 /* Image.swift in Sources */,
+				FF2C03772BA0910800E9F085 /* SDWebImageView.swift in Sources */,
 				FF2C03642BA0811C00E9F085 /* SDWebImageSwiftUIExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,6 +358,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FF2C03712BA081E000E9F085 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FF2C03722BA081E000E9F085 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF2C03712BA081E000E9F085 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FF2C03582BA0811B00E9F085 /* Project object */;
 }

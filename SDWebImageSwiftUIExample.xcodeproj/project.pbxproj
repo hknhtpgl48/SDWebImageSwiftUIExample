@@ -14,6 +14,7 @@
 		FF2C03732BA081E000E9F085 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = FF2C03722BA081E000E9F085 /* SDWebImageSwiftUI */; };
 		FF2C03752BA0833200E9F085 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2C03742BA0833200E9F085 /* Image.swift */; };
 		FF2C03772BA0910800E9F085 /* SDWebImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2C03762BA0910800E9F085 /* SDWebImageView.swift */; };
+		FF499B7F2BA0E5AD00400C52 /* SecondContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF499B7E2BA0E5AD00400C52 /* SecondContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FF2C036A2BA0811D00E9F085 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FF2C03742BA0833200E9F085 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		FF2C03762BA0910800E9F085 /* SDWebImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDWebImageView.swift; sourceTree = "<group>"; };
+		FF499B7E2BA0E5AD00400C52 /* SecondContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				FF2C03692BA0811D00E9F085 /* Preview Content */,
 				FF2C03742BA0833200E9F085 /* Image.swift */,
 				FF2C03762BA0910800E9F085 /* SDWebImageView.swift */,
+				FF499B7E2BA0E5AD00400C52 /* SecondContentView.swift */,
 			);
 			path = SDWebImageSwiftUIExample;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			files = (
 				FF2C03662BA0811C00E9F085 /* ContentView.swift in Sources */,
 				FF2C03752BA0833200E9F085 /* Image.swift in Sources */,
+				FF499B7F2BA0E5AD00400C52 /* SecondContentView.swift in Sources */,
 				FF2C03772BA0910800E9F085 /* SDWebImageView.swift in Sources */,
 				FF2C03642BA0811C00E9F085 /* SDWebImageSwiftUIExampleApp.swift in Sources */,
 			);
